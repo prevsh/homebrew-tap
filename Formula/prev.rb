@@ -1,26 +1,26 @@
 class Prev < Formula
   desc "Preview environments for web projects"
   homepage "https://prev.sh"
-  version "1.10.2"
+  version "1.12.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/pepperpark/apt/releases/download/v1.10.2/prev-darwin-arm64"
-      sha256 "371cd4fb1abeffa53fdc53bfe8a1946590131a1323bdab35bc2ad80e67443c4a"
+      url "https://github.com/pepperpark/apt/releases/download/v1.12.0/prev-darwin-arm64"
+      sha256 "d003a277beb3070e34c2dbd832293c985c8df9b05753aef043bbdc388258b2e2"
     else
-      url "https://github.com/pepperpark/apt/releases/download/v1.10.2/prev-darwin-amd64"
-      sha256 "a8d4a19afa0a029bcc1948b3282244bd660e44ca2840c49c57f9c0db28d729fe"
+      url "https://github.com/pepperpark/apt/releases/download/v1.12.0/prev-darwin-amd64"
+      sha256 "404c89c88f3e093136476d99c6f59c41b463c199f846aba1aa02bec15ea277f3"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/pepperpark/apt/releases/download/v1.10.2/prev-linux-arm64"
-      sha256 "cdae58325ca50677431f6a9046452d992c93243a3ba05d414d0d9ed02de2df1e"
+      url "https://github.com/pepperpark/apt/releases/download/v1.12.0/prev-linux-arm64"
+      sha256 "8ce90d0e372c652c04d710efdfb946b42ddd4d81d609f3c6baded40a1623cebf"
     else
-      url "https://github.com/pepperpark/apt/releases/download/v1.10.2/prev-linux-amd64"
-      sha256 "8d2a83a5ee5afa514b350f6c9e00f17b46d75fc6bd07fbd3c25cd493372957cf"
+      url "https://github.com/pepperpark/apt/releases/download/v1.12.0/prev-linux-amd64"
+      sha256 "65568290de862d6d60e8724e0fbadee62bc202dbd8e44f01c4f5bf434b42e453"
     end
   end
 
