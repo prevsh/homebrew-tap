@@ -7,20 +7,20 @@ class Prev < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/pepperpark/apt/releases/download/v1.12.0/prev-darwin-arm64"
-      sha256 "d003a277beb3070e34c2dbd832293c985c8df9b05753aef043bbdc388258b2e2"
+      sha256 "879ca53d7625b7ba2ce1e9079a7061bd930d0a90bc15c7d2cf34a5063614ef6c"
     else
       url "https://github.com/pepperpark/apt/releases/download/v1.12.0/prev-darwin-amd64"
-      sha256 "404c89c88f3e093136476d99c6f59c41b463c199f846aba1aa02bec15ea277f3"
+      sha256 "3e5104e0946f819337e03d5069dd0d5603a91490df066293b4147f70aa9e5433"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/pepperpark/apt/releases/download/v1.12.0/prev-linux-arm64"
-      sha256 "8ce90d0e372c652c04d710efdfb946b42ddd4d81d609f3c6baded40a1623cebf"
+      sha256 "45353ba8ad8e3371014fcbe5cc94892372552282e0e8b88c0a009f3e4a3c059a"
     else
       url "https://github.com/pepperpark/apt/releases/download/v1.12.0/prev-linux-amd64"
-      sha256 "65568290de862d6d60e8724e0fbadee62bc202dbd8e44f01c4f5bf434b42e453"
+      sha256 "d32f15b000116e6d7abbbbb58bc68f03de0c8e10e1181fd09b9460b55fa26009"
     end
   end
 
