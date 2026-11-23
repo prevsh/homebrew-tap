@@ -31,20 +31,20 @@ jobs:
 
             on_macos do
               if Hardware::CPU.arm?
-                url "https://github.com/pepperpark/apt/releases/download/v${VERSION}/prev-darwin-arm64"
+                url "https://github.com/prevsh/apt/releases/download/cli-v${VERSION}/prev-darwin-arm64"
                 sha256 "${SHA_DARWIN_ARM64}"
               else
-                url "https://github.com/pepperpark/apt/releases/download/v${VERSION}/prev-darwin-amd64"
+                url "https://github.com/prevsh/apt/releases/download/cli-v${VERSION}/prev-darwin-amd64"
                 sha256 "${SHA_DARWIN_AMD64}"
               end
             end
 
             on_linux do
               if Hardware::CPU.arm?
-                url "https://github.com/pepperpark/apt/releases/download/v${VERSION}/prev-linux-arm64"
+                url "https://github.com/prevsh/apt/releases/download/cli-v${VERSION}/prev-linux-arm64"
                 sha256 "${SHA_LINUX_ARM64}"
               else
-                url "https://github.com/pepperpark/apt/releases/download/v${VERSION}/prev-linux-amd64"
+                url "https://github.com/prevsh/apt/releases/download/cli-v${VERSION}/prev-linux-amd64"
                 sha256 "${SHA_LINUX_AMD64}"
               end
             end
