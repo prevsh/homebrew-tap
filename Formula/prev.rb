@@ -1,26 +1,26 @@
 class Prev < Formula
   desc "Preview environments for web projects"
   homepage "https://prev.sh"
-  version "2.1.0"
+  version "2.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/prevsh/apt/releases/download/cli-v2.1.0/prev-darwin-arm64"
-      sha256 "3742ffed7a53cbb91fbc471b7df7a410cb11a991275e4ee9ffe77caed4dc82bd"
+      url "https://github.com/prevsh/apt/releases/download/cli-v2.2.0/prev-darwin-arm64"
+      sha256 "330d5d7ca39ac6b5e3d7ba389b3abb53db816182f6befb100f3afc91ee468ba1"
     else
-      url "https://github.com/prevsh/apt/releases/download/cli-v2.1.0/prev-darwin-amd64"
-      sha256 "da4166a2b6692c229733d80af70965ed8f8a0959a86a038ad400ca836bba0943"
+      url "https://github.com/prevsh/apt/releases/download/cli-v2.2.0/prev-darwin-amd64"
+      sha256 "6239e1427187a1ce88207987b9c2ff09a32330e1fa858d1df597cba07c2a20b4"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/prevsh/apt/releases/download/cli-v2.1.0/prev-linux-arm64"
-      sha256 "1682697dc92921c34ba04d04c42e4e961012c1564ed29472fc0a464daae60453"
+      url "https://github.com/prevsh/apt/releases/download/cli-v2.2.0/prev-linux-arm64"
+      sha256 "5812f3a5b993a1a7f6f4894b01535a0a8aa8dc43fd47329b960cf9fe49dbf012"
     else
-      url "https://github.com/prevsh/apt/releases/download/cli-v2.1.0/prev-linux-amd64"
-      sha256 "113eab0a83197981ae826b7cae69f21b9757329726203be7314fe031795a3991"
+      url "https://github.com/prevsh/apt/releases/download/cli-v2.2.0/prev-linux-amd64"
+      sha256 "8839d9c3746c9eacff4194d5bad41d510a6a0ae3d4f60886effea48cf865d4c7"
     end
   end
 
